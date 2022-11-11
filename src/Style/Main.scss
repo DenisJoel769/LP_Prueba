@@ -1,0 +1,31 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Util/Fuentes/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Util/Fuentes/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Letters";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Util/Fuentes/Letters.ttf") format("truetype");
+}
+
+@import "~vuetify/src/styles/styles.sass";
+
+$body-font-family: 'Montserrat';
+$heading-font-family: $body-font-family;
+
+.cardHeader {
+  background: #7494eb;
+  max-height: 35px;
+}
